@@ -1,0 +1,44 @@
+body {
+    background: rgb(195,55,100);
+    background: linear-gradient(90deg, rgba(195,55,100,1) 0%, rgba(28,17,180,1) 92%);
+}
+
+#boxLogin {
+    margin: 50px auto 50px auto;
+    padding-top: 20px;
+    height: 450px;
+    width: 500px;
+    text-align: center;
+    padding: 70px 0;
+    color: white;
+}
+
+#logoLogin {
+    margin-top: 20px;
+    height: 150px;
+    margin: auto;
+}
+
+#formularioLogin {
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.loginInputs {
+    width: 60%;
+    padding: 7px;
+    margin: 5px;
+}
+
+#loginButton {
+    margin-top: 20px;
+    padding: 10px;
+    width: 150px;
+    font-size: 17px;
+}
+
+#linkCadastro {
+    text-decoration: none;
+    color: white;
+}
