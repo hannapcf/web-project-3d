@@ -68,11 +68,7 @@ a {
 
 #video {
   margin: auto;
-  width: 50%;
-  height: 400px;
-  background-color: rgb(49, 49, 49);
   text-align: center;
-  margin-top: 30px;
 }
 
 #botaoCatalogo {
@@ -101,12 +97,3 @@ footer {
   );
 }
 
-.div-rodape {
-  position: fixed;
-  border: solid 4px blue;
-  clear: both;
-  padding: 28px;
-  color: rgb(250, 255, 250);
-  font-size: 15px;
-  font-family: "arial", sans-serif;
-}
