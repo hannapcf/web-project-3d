@@ -1,0 +1,40 @@
+#titulo {
+    padding-top: 10px;
+  }
+  
+.mapDisplay {
+    margin-left: 1%;
+    width: 90%;
+    height: 100%;
+    padding: 4%;
+  }
+  
+#map {
+    width: 50%;
+    height: 50%;
+    background-color: #ddd;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  .floatLeft {
+    padding: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+  }
+  
+
+  
+footer {
+    margin-top: 50px;
+    width: 100%;
+    height: 70px;
+    background: rgb(195, 55, 100);
+    background: linear-gradient(
+      90deg,
+      rgba(195, 55, 100, 1) 0%,
+      rgba(28, 17, 180, 1) 92%
+    );
+  }
