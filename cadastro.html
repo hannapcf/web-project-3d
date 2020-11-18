@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/styleCadastro.css">
+
+        <script type="text/javascript" src="js/contato.js"> </script>
+        <script type="text/javascript" src="js/functionsCadastro.js"> </script>
+
+        <title> Cadastre-se - 3D Plus </title>
+    </head>
+
+    <body>
+        <div id="boxCadastro">
+            <a href="index.html"> <img id="logoCadastro" src="imagens/logoPNG.png"> </a>
+
+            <div id="formularioLogin"> 
+                <p style="padding: 5px;"> Seja bem-vindo à 3D + </p>                
+                <p style="padding: 5px;"> Preencha os campos abaixos para se cadastrar! </p>
+                
+                <!-- ATRIBUTOS INPUT
+                type .......... tipo
+                class ......... para pegar formatação CSS
+                placeholder ... indicador de campo
+                id ............ identificador único do campo
+                name .......... para usar no javaScript -->
+                <input type="text" class="inputCadastro" placeholder="Nome Completo" id="nomeCadastro" name="formField"> <br>
+                <input type="text" class="inputCadastro" placeholder="E-mail" id="emailCadastro" name="formField"> <br>
+                <input type="text" class="inputCadastro" placeholder="Data de Nascimento" id="nascimentoCadastro" name="formField"> <br>
+                <input type="text" class="inputCadastro" placeholder="Nome de Usuário" id="usuarioCadastro" name="formField"> <br>
+                <input type="password" class="inputCadastro" placeholder="Senha" id="senha1Cadastro" name="formField"> <br>
+                <input type="password" class="inputCadastro" placeholder="Confirme sua Senha" id="senha2Cadastro" name="formField"> <br>
+
+
+                <button id="cadastroButton"> Cadastrar-me </button> <br>
+            </div>
+            
+        </div>
+        
+    </body>
+</html>
