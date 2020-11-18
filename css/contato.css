@@ -1,0 +1,53 @@
+#titulo {
+  padding-top: 10px;
+}
+
+.mapDisplay {
+  padding-left: 4%;
+}
+
+#map {
+  border-top: 1px solid black;
+  width: 50%;
+  height: 50%;
+  background-color: #ddd;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.floatRight {
+  float: right;
+}
+
+.floatLeft {
+  float: left;
+}
+
+/** CARACTERÍSTICAS DO FORMULARIO DE CONTATO */
+
+#enviarButton {
+  background: linear-gradient(
+    90deg,
+    rgba(195, 55, 100, 1) 0%,
+    rgba(28, 17, 180, 1) 92%
+  );
+  color: white;
+  border: none;
+  margin-top: 20px;
+  padding: 10px;
+  width: 150px;
+  font-size: 17px;
+  border-radius: 3px;
+}
+
+.inputContato {
+  width: 30%;
+  padding: 7px;
+  margin: 5px;
+}
+
+#formularioContato {
+  margin: auto;
+  text-align: center;
+  padding-bottom: 10px;
+}
