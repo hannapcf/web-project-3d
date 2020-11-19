@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(195, 55, 100);
+    background: linear-gradient(
+      90deg,
+      rgba(195, 55, 100, 1) 0%,
+      rgba(28, 17, 180, 1) 92%
+    );
+  
+    padding: 0 2%;
+  }
+  
+  #logoPrincipal {
+    height: 110px;
+  }
+  
+  #main {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+  }
+  
+  .mainOption {
+    text-align: center;
+    width: 100%;
+  }
+  
+  #navigation {
+    align-self: center;
+  }
+  
+  #loginInformations {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-bottom: 3%;
+  }
+  
+  #icons {
+    display: flex;
+  }
+  
+  .mainOption > a {
+    text-decoration: none;
+  }
+  
+  a {
+    color: white;
+  }
+  
+/* ---------------------------------------------------- */ 
+
+.produtos {
+  height: 100%;
+  width: 100%;
+}
+
+.templateCardProduto {
+  width: 300px;
+  height: 400px;
+  background: rgb(195, 55, 100);
+    background: linear-gradient(
+      90deg,
+      rgba(195, 55, 100, 1) 0%,
+      rgba(28, 17, 180, 1) 92%
+    );
+  margin: 20px;
+  float: left;
+}
+
+.imagemProduto {
+  padding: 10px;
+  width: 100%;
+}
+
+.nomeProduto {
+  text-align: center;
+  margin: 10px;
+  margin-top: 0px;
+  color: white;
+}
+
+.precoProduto {
+  text-align: center;
+  margin: 10px;
+  color: white;
+}
+
+.botaoAddCarrinho {
+  width: 70%;
+  color: white;
+  background-color: darkred;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.itemCarrinho {
+  background-color: rgb(28, 77, 0);
+}
+
+
+  
+  footer {
+    width: 100%;
+    height: 70px;
+    background: rgb(195, 55, 100);
+    background: linear-gradient(
+      90deg,
+      rgba(195, 55, 100, 1) 0%,
+      rgba(28, 17, 180, 1) 92%
+    );
+  }
+  
+  
